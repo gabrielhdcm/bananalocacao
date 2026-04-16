@@ -104,9 +104,9 @@ export default function App() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Falar no WhatsApp"
-        className="fixed bottom-5 right-5 z-40 inline-flex h-[74px] w-[74px] items-center justify-center rounded-full bg-white shadow-strong transition hover:-translate-y-1"
+        className="fixed bottom-4 right-4 z-40 inline-flex h-[66px] w-[66px] items-center justify-center rounded-full bg-white shadow-strong transition hover:-translate-y-1 sm:bottom-5 sm:right-5 sm:h-[74px] sm:w-[74px]"
       >
-        <span className="flex h-[58px] w-[58px] items-center justify-center rounded-full bg-[#25D366]">
+        <span className="flex h-[52px] w-[52px] items-center justify-center rounded-full bg-[#25D366] sm:h-[58px] sm:w-[58px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
