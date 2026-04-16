@@ -8,7 +8,7 @@ export function Footer() {
         </div>
         <div className="text-sm text-slate-300">
           <p>Monte Alto - SP • Desde 2015</p>
-          <p>© {new Date().getFullYear()} Banana Locações. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} GABRIEL HENRIQUE DA CRUZ MACHADO WEB DEVELOPER. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
