@@ -48,11 +48,13 @@ export function QuoteModal({ equipment, isOpen, onClose, onSubmitQuickQuote }) {
 
         <div className="grid gap-6 p-5 sm:p-6 lg:grid-cols-2">
           <div>
-            <img
-              src={equipment.image}
-              alt={`Imagem do equipamento ${equipment.name}`}
-              className="h-[280px] w-full rounded-3xl object-cover shadow-soft"
-            />
+            <div className="flex h-[280px] items-center justify-center rounded-3xl bg-white p-5 shadow-soft">
+              <img
+                src={equipment.image}
+                alt={`Imagem do equipamento ${equipment.name}`}
+                className="max-h-full w-full object-contain"
+              />
+            </div>
             <div className="mt-4 rounded-2xl bg-softbg p-4">
               <p className="text-sm text-slate-600">{equipment.description}</p>
               <div className="mt-4 grid grid-cols-2 gap-3 text-sm">

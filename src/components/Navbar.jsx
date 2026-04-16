@@ -10,13 +10,7 @@ export function Navbar({ isMobileMenuOpen, onToggleMobileMenu, onCloseMobileMenu
     <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-200/80 bg-white/90 shadow-sm backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <a href="#inicio" className="flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-banana text-lg font-black text-construcao shadow-soft">
-            BL
-          </div>
-          <div>
-            <p className="text-base font-extrabold text-construcao">Banana Locações</p>
-            <p className="text-xs text-slate-500">Tudo para sua obra com agilidade e confiança</p>
-          </div>
+          <img src="/image/logo.png" alt="Logo Banana Locacoes" className="h-11 w-auto object-contain" />
         </a>
 
         <nav className="hidden items-center gap-6 md:flex">

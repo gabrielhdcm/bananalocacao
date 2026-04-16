@@ -7,12 +7,10 @@ const HERO_STATS = [
 export function HeroSection({ revealRef }) {
   return (
     <section id="inicio" className="relative overflow-hidden pt-24">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: "url('/image/banner-principal.jpg')"
-        }}
-      />
+      <picture className="absolute inset-0">
+        <source media="(max-width: 639px)" srcSet="/image/banner-principal-mobile.jpg" />
+        <img src="/image/banner-principal.jpg" alt="Banner principal Banana Locacoes" className="h-full w-full object-cover object-center" />
+      </picture>
       <div className="hero-overlay absolute inset-0" />
 
       <div className="relative mx-auto grid min-h-[68vh] max-w-7xl items-center gap-8 px-4 py-10 sm:min-h-[88vh] sm:gap-10 sm:px-6 sm:py-16 lg:grid-cols-2 lg:px-8">
